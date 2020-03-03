@@ -6,5 +6,5 @@ require_relative '../lib/sql_queries'
 require 'sqlite3'
 
  
-DB = {:conn => SQLite3::Database.new('../db/lab_database.db')}
+#DB = {:conn => SQLite3::Database.new('../db/lab_database.db')}
 #db = SQLite3::Database.new('../db/lab_database.db')
